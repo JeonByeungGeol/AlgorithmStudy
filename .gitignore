@@ -1,0 +1,17 @@
+/packages
+
+/Debug
+/Release
+
+/ipch
+
+
+
+
+
+*.dmp
+*.user
+*.suo
+
+*.VC.db
+*.opendb
