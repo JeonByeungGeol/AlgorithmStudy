@@ -146,11 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BGGraphNode.cpp" />
     <ClCompile Include="main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="sample.cpp" />
     <ClCompile Include="solution0814.cpp" />
     <ClCompile Include="solution1018.cpp" />
+    <ClCompile Include="solution2178.cpp" />
     <ClCompile Include="solution2504.cpp" />
     <ClCompile Include="제출용.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -158,7 +161,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BGGraphEdge.h" />
+    <ClInclude Include="BGGraphNode.h" />
+    <ClInclude Include="BGSparseGraph.h" />
+    <ClInclude Include="sample.h" />
     <ClInclude Include="solution1018.h" />
+    <ClInclude Include="solution2178.h" />
     <ClInclude Include="solution2504.h" />
     <ClInclude Include="solution0814.h" />
   </ItemGroup>

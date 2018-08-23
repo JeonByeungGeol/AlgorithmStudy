@@ -6,7 +6,7 @@
 bool BG0000::inputProcess(BG0000::INPUT& input)
 {
 	
-	return INVALID_INPUT;
+	return false;
 }
 
 BG0000::OUTPUT BG0000::solution_1(BG0000::INPUT input)
@@ -38,7 +38,5 @@ BG0000::OUTPUT BG0000::solution_3(BG0000::INPUT input)
 
 void BG0000::SetTestCase(BG0000::INPUT& input)
 {
-	input.m = 8;
-	input.n = 8;
 
 }

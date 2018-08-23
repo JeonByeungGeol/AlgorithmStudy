@@ -19,33 +19,72 @@
     <Filter Include="제출용">
       <UniqueIdentifier>{d7d7c112-a2d2-4098-a845-49a2f0a36b62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="문제\0814">
+      <UniqueIdentifier>{e242bce2-a21a-4227-9a32-62789562ea2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문제\1018">
+      <UniqueIdentifier>{08fabc77-0230-45ef-a178-1bab53034e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문제\2178">
+      <UniqueIdentifier>{63a4daf4-a200-4ea9-9e6d-c6c0ad9a13e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문제\2504">
+      <UniqueIdentifier>{9d8cdb55-fe98-46ea-a4a9-803b00ef03e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="문제\2178\AStar">
+      <UniqueIdentifier>{87006f73-10cb-4f1c-92ae-908990c8c44e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="solution1018.cpp">
-      <Filter>문제</Filter>
-    </ClCompile>
-    <ClCompile Include="solution2504.cpp">
-      <Filter>문제</Filter>
-    </ClCompile>
     <ClCompile Include="제출용.cpp">
       <Filter>제출용</Filter>
     </ClCompile>
-    <ClCompile Include="solution0814.cpp">
+    <ClCompile Include="sample.cpp">
       <Filter>문제</Filter>
+    </ClCompile>
+    <ClCompile Include="solution0814.cpp">
+      <Filter>문제\0814</Filter>
+    </ClCompile>
+    <ClCompile Include="solution1018.cpp">
+      <Filter>문제\1018</Filter>
+    </ClCompile>
+    <ClCompile Include="solution2178.cpp">
+      <Filter>문제\2178</Filter>
+    </ClCompile>
+    <ClCompile Include="solution2504.cpp">
+      <Filter>문제\2504</Filter>
+    </ClCompile>
+    <ClCompile Include="BGGraphNode.cpp">
+      <Filter>문제\2178\AStar</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="solution1018.h">
-      <Filter>문제</Filter>
-    </ClInclude>
-    <ClInclude Include="solution2504.h">
+    <ClInclude Include="sample.h">
       <Filter>문제</Filter>
     </ClInclude>
     <ClInclude Include="solution0814.h">
-      <Filter>문제</Filter>
+      <Filter>문제\0814</Filter>
+    </ClInclude>
+    <ClInclude Include="solution1018.h">
+      <Filter>문제\1018</Filter>
+    </ClInclude>
+    <ClInclude Include="solution2178.h">
+      <Filter>문제\2178</Filter>
+    </ClInclude>
+    <ClInclude Include="solution2504.h">
+      <Filter>문제\2504</Filter>
+    </ClInclude>
+    <ClInclude Include="BGGraphNode.h">
+      <Filter>문제\2178\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="BGGraphEdge.h">
+      <Filter>문제\2178\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="BGSparseGraph.h">
+      <Filter>문제\2178\AStar</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
